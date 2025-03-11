@@ -26,6 +26,9 @@ elif operation =='/':
         print(f"{num1} / {num2} = {result}')
   else: 
       print("Invalid operation. Please enter one of +, -, *, or /.")
+
+      # Run the calculator
+calculator()
  except ValueError:
  print("Invalid input. please enter numerical values.")
 
